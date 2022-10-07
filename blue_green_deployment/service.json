@@ -1,0 +1,19 @@
+[
+    {
+      "name": "mahi",
+      "image":  "073777684184.dkr.ecr.ap-south-1.amazonaws.com/mahiecr:latest",
+      "cpu": 10,
+      "memory": 512,
+      "networkMode" : "awsvpc",
+      "essential": true,
+
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
+    
+
